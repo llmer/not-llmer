@@ -40,7 +40,7 @@ jobs:
           submodules: true
 
       - name: Run Pysa
-        uses: facebook/pysa-action@0.0.1
+        uses: facebook/pysa-action
         with:
           # To customize these inputs:
           # See https://github.com/facebook/pysa-action#inputs
